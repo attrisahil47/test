@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <form action="FORM SUCCESSFULLY SUBMITTED.HTML">
+        <center>
+            <fieldset>
+                <legend style="text-align: center;">
+                    <h1>REGISTRATION FORM</h1>
+                </legend>
+
+
+
+                <!-- Personal Information Fieldset -->
+                <fieldset>
+                    <legend><b>Personal Information</b></legend>
+                    <label for="name">NAME:</label>
+                    <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME" required><br><br>
+
+                    <label for="email">EMAIL:</label>
+                    <input type="email" name="email" id="email" placeholder="eg:abc@gmail.com" required><br><br>
+
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required
+                        maxlength="8" minlength="8"><br><br>
+
+                    <label for="date">DATE:</label>
+                    <input type="date" name="date" id="date"  max="2025-02-28" required><br><br>
+
+                    <label for="gender">SELECT GENDER:</label>
+                    <input type="radio" name="gender" value="Male" required>MALE
+                    <input type="radio" name="gender" value="Female">FEMALE<br><br>
+                    <label for="color">CHOOSE YOUR FAV COLOR:</label>
+                    <input type="color" name="color" id=""><br><br>
+
+                    <label for="city">CHOOSE YOUR CITY:</label>
+                    <select name="city" id="" required>
+                        <option value="Select your City" selected disabled>Select your City</option>
+                        <option value="Jalandhar">Jalandhar</option>
+                        <option value="Ludhiana">Ludhiana</option>
+                        <option value="Amritsar">Amritsar</option>
+                        <option value="Gurdaspur">Gurdaspur</option>
+                    </select>
+                </fieldset>
+                <br>
+
+                <!-- Contact Information Fieldset -->
+                <fieldset>
+                    <legend><b>Contact Information</b></legend>
+                    <label for="phone">CONTACT:</label>
+                    <input type="tel" name="phone" placeholder="Your phone number" required> <br><br>
+
+                    <label for="message">MESSAGE:</label>
+                    <textarea name="message" rows="5" placeholder="Write your message here..."
+                        required></textarea><br><br>
+                    <label for="resume">RESUME:</label>
+                    <input type="file">
+                </fieldset>
+                <br>
+
+                <!-- Terms and Conditions Fieldset -->
+                <fieldset>
+                    <legend><b>Terms and Conditions</b></legend>
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms">I AGREE WITH ALL TERMS AND CONDITIONS</label><br><br>
+                </fieldset>
+                <br>
+
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="CLEAR">
+            </fieldset>
+        </center>
+    </form>
+</body>
+
+</html>
+
